@@ -30,12 +30,13 @@ Developing a personalized game recommendation system using Steam reviews and gam
 - Planning to evaluate recommendation quality using Recall@K and NDCG@K.
 - Building toward an interactive Streamlit application where users can select favorite games and receive personalized recommendations.
 
-### 🧠 Knee MRI Classification
-*In Progress*
+### 🧠 [Knee MRI Abnormality Classification](https://github.com/evz18/knee-mri-abnormality-classifier)
 
-**Python · TensorFlow/Keras · Computer Vision**
+**Python · TensorFlow/Keras · MobileNetV2 · pydicom · NumPy · Kaggle**
 
-Exploring deep learning approaches for classifying knee MRI images, including image preprocessing, convolutional neural networks, and model evaluation.
+- Built a multi-label CNN using MobileNetV2 transfer learning to classify 12 knee abnormalities from DICOM MRI scans.
+- Implemented MRI preprocessing, pseudo-label training, and model fine-tuning, achieving **0.690 macro ROC-AUC on 11 expert-labeled validation studies**.
+
 
 ## Technical Skills
 
