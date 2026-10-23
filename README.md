@@ -6,7 +6,9 @@ I'm currently completing an M.S. in Data Science at Boston University (December 
 
 ## Featured Projects
 
-### 📊 [Retail Analytics & Machine Learning](https://github.com/evz18/retail-analytics-capstone)
+### 📊 [End-to-End Retail Analytics & ML Pipeline](https://github.com/evz18/retail-analytics-capstone)
+
+🔗 **[Interactive Prediction App](https://olist-satisfaction-predictor.streamlit.app)** 
 
 **Python · SQL · scikit-learn · Azure · Power BI · Streamlit**
 
@@ -16,7 +18,7 @@ Analyzed four e-commerce datasets to investigate customer behavior, product popu
 - Built data pipelines using Azure Data Factory and curated SQL views in Azure Synapse.
 - Created interactive Power BI dashboards to visualize business performance and model findings.
 - Found that late deliveries were associated with substantially lower customer satisfaction, while higher discounts were associated with reduced profitability.
-- Developed a Streamlit application for predicting customer satisfaction using order and delivery information.
+- Developed a Streamlit web application for predicting customer satisfaction using order and delivery information.
 
 ### 🎮 [Steam Game Recommendation System](https://github.com/evz18/steam-games-recommender-project)
 *In Progress*
@@ -34,8 +36,9 @@ Developing a personalized game recommendation system using Steam reviews and gam
 
 **Python · TensorFlow/Keras · MobileNetV2 · pydicom · NumPy · Kaggle**
 
-- Built a multi-label CNN using MobileNetV2 transfer learning to classify 12 knee abnormalities from DICOM MRI scans.
-- Implemented MRI preprocessing, pseudo-label training, and model fine-tuning, achieving **0.690 macro ROC-AUC on 11 expert-labeled validation studies**.
+- Built a multi-label CNN using MobileNetV2 transfer learning to classify 12 knee abnormalities from MRI scans.
+- Preprocessed DICOM MRI studies by selecting representative slices, normalizing image intensities, and constructing three-channel CNN inputs.
+- Achieved **0.690 macro ROC-AUC on 11 expert-labeled validation studies**, with additional evaluation through the Kaggle competition.
 
 
 ## Technical Skills
